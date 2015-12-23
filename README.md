@@ -1,31 +1,29 @@
-=== Introductmon ===
+# Introductmon
 
-TODO: Intro
+TODO: Write intro
 
+# Coding rules
 
-=== Règles de codage ===
+TODO: Write coding rules
 
-TODO: Règles de codage
+# Database
 
+Use jagi:astronomy-relations : http://astronomy.jagi.io/relations
 
-=== Bases de données ===
+Structure:
 
-Use jagi:astronomy-relations
-http://astronomy.jagi.io/relations
-Structure de la base :
-members:
-	(string) name
-	(string) description
+* members:
+	* (string) name
+	* (string) description
 
-achievements:
-	(string) name
-	(string) description
+* achievements:
+	* (string) name
+	* (string) description
 
-members_achievements:
-	(member) members
-	(achievement) achievement
+* members_achievements:
+	* (member) members
+	* (achievement) achievement
 
+# What to do
 
-=== TODO List 5==
-
-* Faire le README
+* Finish this README
