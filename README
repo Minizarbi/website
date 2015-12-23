@@ -1,0 +1,48 @@
+=== Introduction ===
+
+Vous êtes en train de lire ce fichier, c'est probablement parce que vous voulez voir comment marche me site, qui sait, y apporter votre contribution.
+
+
+=== Règle de codage ===
+
+- Site en français, code en anglais.
+- Indentation avec des tabulations.
+- Pas d'espace entre les fonctions et leur parenthèses, même pour les mot-clés, ex : 
+if(true)
+	printf("Hello World!");
+- Accolades { } en mode économie de place, à la fin de la ligne, et au début parfois, ex :
+proc() {
+	// Code
+}
+if(true) {
+	// Code
+} else {
+	// Code
+}
+
+
+=== Base de Données ===
+
+La base de données est structurée :
+Elle pourrait plus tard être modifiée en ajoutant une table pour lier les succès et les membres.
+
+members:
+	(Object) _id
+	(string) name
+	(string) description
+	(_id list) achievements
+
+achievements:
+	(Object) _id
+	(string) name
+	(string) description
+
+
+=== TODO List ===
+
+- => TODO
+* => DOWEDOIT?
+
+- Ajouter des indicateurs de chargement sur les membres et succès.
+* Changer la structure de la base de données.
+* Ajouter des langues au site.
