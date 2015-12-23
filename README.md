@@ -8,20 +8,21 @@ TODO: Write coding rules
 
 # Database
 
-Use jagi:astronomy-relations
-http://astronomy.jagi.io/relations
+Use jagi:astronomy-relations : http://astronomy.jagi.io/relations
+
 Structure:
-members:
-	(string) name
-	(string) description
 
-achievements:
-	(string) name
-	(string) description
+* members:
+	* (string) name
+	* (string) description
 
-members_achievements:
-	(member) members
-	(achievement) achievement
+* achievements:
+	* (string) name
+	* (string) description
+
+* members_achievements:
+	* (member) members
+	* (achievement) achievement
 
 # What to do
 
