@@ -1,7 +1,6 @@
 Meteor.publish('members', function() {
 	return Members.find();
 });
-<<<<<<< HEAD
 
 Meteor.publish('achievements', function() {
 	return Achievements.find();
